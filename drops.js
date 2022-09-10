@@ -1,3 +1,7 @@
+
+
+^https\:\/\/api-prod\.languagedrops\.com\/syncPurchasesV\d url script-response-body https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/drops.js
+
 var obj = JSON.parse($response.body);
 
 obj= {
