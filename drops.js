@@ -1,5 +1,8 @@
+hostname = api-prod.languagedrops.com
 
-# ^https\:\/\/api-prod\.languagedrops\.com\/syncPurchasesV\d url script-response-body https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/drops.js
+# > 修复Drops解锁(2022.02.09)
+^https\:\/\/api-prod\.languagedrops\.com\/syncPurchasesV\d url script-response-body https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/drops.js
+
 
 var obj = JSON.parse($response.body);
 
@@ -19,6 +22,4 @@ obj= {
 
 $done({body: JSON.stringify(obj)});
 
-
-
-# hostname = api-prod.languagedrops.com
+ hostname = api-prod.languagedrops.com
