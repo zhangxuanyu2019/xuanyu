@@ -1,13 +1,14 @@
+
+/*
 [rewrite_local]
 
 
 ^https:\/\/api\.busuu\.com\/users\/me* url script-response-body https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/busuu.js
 
-
-
 [mitm] 
 
-hostname = api.busuu.com
+hostname = api.busuu.com 
+*/
 
 
 
