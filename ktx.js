@@ -1,4 +1,5 @@
  
+/*
 [rewrite_local]
 
 #看天下锁会员权限
@@ -7,6 +8,7 @@
 [mitm]
 
 hostname=open3.vistastory.com
+*/
 
 ***********************************/
 
