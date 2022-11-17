@@ -1,0 +1,24 @@
+
+/*
+应用名称：自用B站去广告脚本
+脚本作者：Cuttlefish
+微信账号：公众号墨鱼手记
+更新时间：2022-11-08
+脚本版本：(74) 
+通知频道：https://t.me/ddgksf2021
+问题反馈：ddgksf2013@163.com
+*/
+
+
+#!name=Bilibili pro
+#!desc=免会员开启最高画质
+
+
+[Script]
+Bilibili = type=http-response,pattern=^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/Bilibili_pro.js,script-update-interval=0
+
+[MITM]
+hostname = %APPEND% app.bilibili.com
+
+
+
