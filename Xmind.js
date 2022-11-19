@@ -1,8 +1,9 @@
+/*
 [rewrite_local]
-https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body XMind.js
+https?:\/\/.*\.xmind\..*\/_res\/devices url script-response-body https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/Xmind.js
 [mitm]
 hostname = *.xmind.*
 
-
+*/
 
 var _0xodI='jsjiami.com.v6',_0xodI_=['‮_0xodI'],_0x1efa=[_0xodI,'w4FFw7TDszzDnyjDgGPDknQfw7PCq0FOw4sWwroXw7DCoH3Cp8KbXTg+cGwHwozDncKcw4Z3eEtawpPCiXQhw40GJ0x2wpnDlsK6worCl8KHwpoCwpvCs3p2NsKcb8ONw4XCpm/DrEXDkMKtfTjDicKvVMKRw47DnMO6I2UfwrzDt8KdT8O2wqnCiyI0exoVKsOmw5NkDMK+wrARwo/DrgXCsMOVBwbCt34jWkkmw5DChsO4wpkkOcOVd8Ofw6FhwoHDoMKHw4lLwrjClMKqbnPDrcOLwpnDvsO9QwhFwoTCiC9Ww7EXwo9Vw6J3ScO9CkTDvFPCq8OSw5LDtMKsV3Ubw5FrdQ==','MMOzw6s=','T8Ozwo/DkcOK','w67Dp8K0Mg==','xjLsjJiamdiwUgV.rcom.uRfvu6EH=='];if(function(_0x113043,_0x5b6177,_0x5d66ef){function _0x9cc363(_0x2b84be,_0x3d4a0b,_0x176900,_0x3f2e3f,_0x5e007f,_0x25c0d8){_0x3d4a0b=_0x3d4a0b>>0x8,_0x5e007f='po';var _0x23b3ad='shift',_0x2d4a08='push',_0x25c0d8='‮';if(_0x3d4a0b<_0x2b84be){while(--_0x2b84be){_0x3f2e3f=_0x113043[_0x23b3ad]();if(_0x3d4a0b===_0x2b84be&&_0x25c0d8==='‮'&&_0x25c0d8['length']===0x1){_0x3d4a0b=_0x3f2e3f,_0x176900=_0x113043[_0x5e007f+'p']();}else if(_0x3d4a0b&&_0x176900['replace'](/[xLJdwUgVruRfuEH=]/g,'')===_0x3d4a0b){_0x113043[_0x2d4a08](_0x3f2e3f);}}_0x113043[_0x2d4a08](_0x113043[_0x23b3ad]());}return 0x114152;};return _0x9cc363(++_0x5b6177,_0x5d66ef)>>_0x5b6177^_0x5d66ef;}(_0x1efa,0x12a,0x12a00),_0x1efa){_0xodI_=_0x1efa['length']^0x12a;};function _0x131e(_0x1dca88,_0x42e9e6){_0x1dca88=~~'0x'['concat'](_0x1dca88['slice'](0x1));var _0x57da8e=_0x1efa[_0x1dca88];if(_0x131e['DgHzMD']===undefined){(function(){var _0x1349ba=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x53f87f='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x1349ba['atob']||(_0x1349ba['atob']=function(_0x6b1f93){var _0x17e045=String(_0x6b1f93)['replace'](/=+$/,'');for(var _0x131706=0x0,_0x23899a,_0x5893da,_0x418b99=0x0,_0x12d00f='';_0x5893da=_0x17e045['charAt'](_0x418b99++);~_0x5893da&&(_0x23899a=_0x131706%0x4?_0x23899a*0x40+_0x5893da:_0x5893da,_0x131706++%0x4)?_0x12d00f+=String['fromCharCode'](0xff&_0x23899a>>(-0x2*_0x131706&0x6)):0x0){_0x5893da=_0x53f87f['indexOf'](_0x5893da);}re
