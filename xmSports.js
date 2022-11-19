@@ -20,7 +20,7 @@ Surge
 15 17 * * * xmSports.js, tag=小米运动, img-url=https://raw.githubusercontent.com/58xinian/icon/master/xmyd.png, enabled=true
 [rewrite_local]
 # 小米运动获取Token
-^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body xmSports.js
+^https:\/\/account\.huami\.com\/v2\/client\/login url script-response-body https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/main/xmSports.js
 Loon
 [Script]
 cron "15 17 * * *" script-path=xmSports.js, tag=小米运动
