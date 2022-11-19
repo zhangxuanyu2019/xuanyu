@@ -3,7 +3,7 @@
 #!测试专用
 
 [Script]
-Xmind = type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/devices,requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/张轩宇2019-补丁/xmind.js,script-update-interval=0
+Xmind = type=http-response,pattern=https?:\/\/.*\.xmind\..*\/_res\/devices,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/zhangxuanyu2019/xuanyu/张轩宇2019-补丁/xmind.js,script-update-interval=0
 
 [MITM]
 hostname = %APPEND% *.xmind.*
